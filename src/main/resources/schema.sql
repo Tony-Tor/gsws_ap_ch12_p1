@@ -1,5 +1,5 @@
 CREATE TABLE IF NOT EXISTS purchase (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    id serial primary key,
     product varchar(50) NOT NULL,
-    price double NOT NULL
+    price float8 NOT NULL
 );
